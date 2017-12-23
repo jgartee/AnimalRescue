@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="PetInformation\" />
+    <Folder Include="Models\" />
+    <Folder Include="Events\" />
+    <Folder Include="Commands\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AnimalRescue.Core\AnimalRescue.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NodaTime" Version="2.2.3" />
+    <PackageReference Include="NodaTime.Serialization.JsonNet" Version="2.0.0" />
+  </ItemGroup>
+</Project>
