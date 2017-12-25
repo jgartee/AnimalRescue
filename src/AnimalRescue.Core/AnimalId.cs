@@ -1,7 +1,6 @@
 ﻿using System;
-using AnimalRescue.Core;
 
-namespace AnimalRescue.Intake.Models
+namespace AnimalRescue.Core
 {
     public class AnimalId : Id<Guid>
     {
