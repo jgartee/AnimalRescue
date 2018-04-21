@@ -4,13 +4,21 @@
     <e p="$USER_HOME$/.nuget/packages/more.xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/more.xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/more.xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_AnimalRescue.-169213843.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_AnimalRescue.-169213843.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="AnimalRescue.sln" t="IncludeFlat" />
+      <e p="LICENSE.md" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="README.md" t="Include" />
+      <e p="Solution Items" t="Include" />
       <e p="src" t="Include">
         <e p="AnimalRescue.Core" t="IncludeRecursive">
+          <e p="AddressId.cs" t="Include" />
           <e p="AggregateRoot.cs" t="Include" />
+          <e p="AnimalId.cs" t="Include" />
           <e p="AnimalRescue.Core.csproj" t="IncludeRecursive" />
           <e p="bin" t="ExcludeRecursive" />
           <e p="CommandProcessor.cs" t="Include" />
@@ -47,6 +55,8 @@
               </e>
             </e>
           </e>
+          <e p="OrganizationId.cs" t="Include" />
+          <e p="PersonId.cs" t="Include" />
           <e p="QueryProcessor.cs" t="Include" />
           <e p="RegistrationEventRouter.cs" t="Include" />
           <e p="results" t="Include">
@@ -57,74 +67,17 @@
           <e p="Serialization" t="Include">
             <e p="IdConverter.cs" t="Include" />
           </e>
-        </e>
-        <e p="AnimalRescue.Intake" t="IncludeRecursive">
-          <e p="AnimalRescue.Intake.csproj" t="IncludeRecursive" />
-          <e p="bin" t="ExcludeRecursive" />
-          <e p="Commands" t="Include" />
-          <e p="Directory.Build.targets" t="Include" />
-          <e p="Events" t="Include" />
-          <e p="Models" t="Include">
-            <e p="AnimalId.cs" t="Include" />
-            <e p="Intake.cs" t="Include" />
-            <e p="IntakeId.cs" t="Include" />
-            <e p="PhoneNumber.cs" t="Include" />
-          </e>
-          <e p="obj" t="ExcludeRecursive">
-            <e p="Debug" t="Include">
-              <e p="netstandard2.0" t="Include">
-                <e p="AnimalRescue.Intake.AssemblyInfo.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="PetInformation" t="Include" />
-          <e p="Queries" t="Include" />
-          <e p="Services" t="Include" />
-          <e p="test" t="Include">
-            <e p="AnimalRescue.Core.Tests" t="Include">
-              <e p="bin" t="Include">
-                <e p="Debug" t="Include">
-                  <e p="AnimalRescue.Intake.deps.json" t="Include" />
-                  <e p="AnimalRescue.Intake.dll" t="Include" />
-                  <e p="AnimalRescue.Intake.pdb" t="Include" />
-                </e>
-              </e>
-            </e>
-          </e>
-        </e>
-        <e p="AnimalRescue.Party" t="IncludeRecursive">
-          <e p="AnimalRescue.Party.csproj" t="IncludeRecursive" />
-          <e p="bin" t="ExcludeRecursive" />
-          <e p="Class1.cs" t="Include" />
-          <e p="Directory.Build.targets" t="Include" />
-          <e p="obj" t="ExcludeRecursive">
-            <e p="Debug" t="Include">
-              <e p="netstandard2.0" t="Include">
-                <e p="AnimalRescue.Party.AssemblyInfo.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="test" t="Include">
-            <e p="AnimalRescue.Core.Tests" t="Include">
-              <e p="bin" t="Include">
-                <e p="Debug" t="Include">
-                  <e p="AnimalRescue.Party.deps.json" t="Include" />
-                  <e p="AnimalRescue.Party.dll" t="Include" />
-                  <e p="AnimalRescue.Party.pdb" t="Include" />
-                </e>
-              </e>
-            </e>
-          </e>
+          <e p="StaffId.cs" t="Include" />
         </e>
       </e>
       <e p="test" t="Include">
         <e p="AnimalRescue.Core.Tests" t="IncludeRecursive">
           <e p="AnimalRescue.Core.Tests.csproj" t="IncludeRecursive" />
           <e p="bin" t="ExcludeRecursive" />
-          <e p="CommandProcessorTests.cs" t="Include" />
+          <e p="CommandProcessorUnitTests.cs" t="Include" />
           <e p="Directory.Build.targets" t="Include" />
           <e p="Extensions" t="Include">
-            <e p="TypeExtensionsTests.cs" t="Include" />
+            <e p="TypeExtensionsUnitTests.cs" t="Include" />
           </e>
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
@@ -134,7 +87,7 @@
               </e>
             </e>
           </e>
-          <e p="QueryProcessorTests.cs" t="Include" />
+          <e p="QueryProcessorUnitTests.cs" t="Include" />
           <e p="results" t="Include">
             <e p="AnimalRescue.Core.dll" t="Include" />
             <e p="AnimalRescue.Core.pdb" t="Include" />
@@ -148,100 +101,8 @@
             <e p="xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
           </e>
           <e p="Serialization" t="Include">
-            <e p="IdConverterTests.cs" t="Include" />
+            <e p="IdConverterUnitTests.cs" t="Include" />
           </e>
-          <e p="UnitTest1.cs" t="Include" />
-        </e>
-        <e p="AnimalRescue.Intake.Tests" t="IncludeRecursive">
-          <e p="AnimalRescue.Intake.Tests.csproj" t="IncludeRecursive" />
-          <e p="bin" t="ExcludeRecursive" />
-          <e p="Builders" t="Include">
-            <e p="AddressBuilder.cs" t="Include" />
-            <e p="ClaimsIdentityBuilder.cs" t="Include" />
-            <e p="ClaimsPrincipalBuilder.cs" t="Include" />
-            <e p="NameBuilder.cs" t="Include" />
-            <e p="PersonBuilder.cs" t="Include" />
-            <e p="PhoneNumberBuilder.cs" t="Include" />
-          </e>
-          <e p="Commands" t="Include">
-            <e p="IntakeCommandHandler.cs" t="Include" />
-          </e>
-          <e p="Directory.Build.targets" t="Include" />
-          <e p="obj" t="ExcludeRecursive">
-            <e p="Debug" t="Include">
-              <e p="netcoreapp2.0" t="Include">
-                <e p="AnimalRescue.Intake.Tests.AssemblyInfo.cs" t="Include" />
-                <e p="AnimalRescue.Intake.Tests.Program.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="results" t="Include">
-            <e p="AnimalRescue.Intake.Tests.deps.json" t="Include" />
-            <e p="AnimalRescue.Intake.Tests.dll" t="Include" />
-            <e p="AnimalRescue.Intake.Tests.pdb" t="Include" />
-            <e p="AnimalRescue.Intake.Tests.runtimeconfig.dev.json" t="Include" />
-            <e p="AnimalRescue.Intake.Tests.runtimeconfig.json" t="Include" />
-            <e p="xunit.runner.reporters.netcoreapp10.dll" t="Include" />
-            <e p="xunit.runner.utility.netcoreapp10.dll" t="Include" />
-            <e p="xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-          </e>
-          <e p="test" t="Include">
-            <e p="AnimalRescue.Core.Tests" t="Include">
-              <e p="bin" t="Include">
-                <e p="Debug" t="Include">
-                  <e p="AnimalRescue.Intake.Tests.deps.json" t="Include" />
-                  <e p="AnimalRescue.Intake.Tests.dll" t="Include" />
-                  <e p="AnimalRescue.Intake.Tests.pdb" t="Include" />
-                  <e p="AnimalRescue.Intake.Tests.runtimeconfig.dev.json" t="Include" />
-                  <e p="AnimalRescue.Intake.Tests.runtimeconfig.json" t="Include" />
-                  <e p="xunit.runner.reporters.netstandard15.dll" t="Include" />
-                  <e p="xunit.runner.utility.netstandard15.dll" t="Include" />
-                  <e p="xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-                </e>
-              </e>
-            </e>
-          </e>
-          <e p="UnitTest1.cs" t="Include" />
-        </e>
-        <e p="AnimalRescue.Party.Tests" t="IncludeRecursive">
-          <e p="AnimalRescue.Party.Tests.csproj" t="IncludeRecursive" />
-          <e p="bin" t="ExcludeRecursive" />
-          <e p="Directory.Build.targets" t="Include" />
-          <e p="obj" t="ExcludeRecursive">
-            <e p="Debug" t="Include">
-              <e p="netcoreapp2.0" t="Include">
-                <e p="AnimalRescue.Party.Tests.AssemblyInfo.cs" t="Include" />
-                <e p="AnimalRescue.Party.Tests.Program.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="results" t="Include">
-            <e p="AnimalRescue.Party.Tests.deps.json" t="Include" />
-            <e p="AnimalRescue.Party.Tests.dll" t="Include" />
-            <e p="AnimalRescue.Party.Tests.pdb" t="Include" />
-            <e p="AnimalRescue.Party.Tests.runtimeconfig.dev.json" t="Include" />
-            <e p="AnimalRescue.Party.Tests.runtimeconfig.json" t="Include" />
-            <e p="xunit.runner.reporters.netcoreapp10.dll" t="Include" />
-            <e p="xunit.runner.utility.netcoreapp10.dll" t="Include" />
-            <e p="xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-          </e>
-          <e p="test" t="Include">
-            <e p="AnimalRescue.Core.Tests" t="Include">
-              <e p="bin" t="Include">
-                <e p="Debug" t="Include">
-                  <e p="AnimalRescue.Party.Tests.deps.json" t="Include" />
-                  <e p="AnimalRescue.Party.Tests.dll" t="Include" />
-                  <e p="AnimalRescue.Party.Tests.pdb" t="Include" />
-                  <e p="AnimalRescue.Party.Tests.runtimeconfig.dev.json" t="Include" />
-                  <e p="AnimalRescue.Party.Tests.runtimeconfig.json" t="Include" />
-                  <e p="xunit.runner.reporters.netstandard15.dll" t="Include" />
-                  <e p="xunit.runner.utility.netstandard15.dll" t="Include" />
-                  <e p="xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-                </e>
-              </e>
-            </e>
-          </e>
-          <e p="UnitTest1.cs" t="Include" />
         </e>
       </e>
     </e>

@@ -2,6 +2,8 @@
 using System.Threading.Tasks;
 using AnimalRescue.Core.Exceptions;
 using AnimalRescue.Core.Extensions;
+using CommonServiceLocator;
+
 
 namespace AnimalRescue.Core
 {
@@ -9,10 +11,7 @@ namespace AnimalRescue.Core
     {
         private readonly IServiceLocator _serviceLocator;
 
-        public CommandProcessor(IServiceLocator serviceLocator)
-        {
-            _serviceLocator = serviceLocator;
-        }
+        public CommandProcessor(IServiceLocator serviceLocator) => _serviceLocator = serviceLocator;
 
         public async Task<object> ProcessAsync(ICommand command)
         {

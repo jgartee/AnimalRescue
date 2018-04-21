@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0-preview-20170628-02" />
+    <PackageReference Include="more.xunit.runner.visualstudio" Version="2.3.1" />
+    <PackageReference Include="FluentAssertions" Version="4.19.4" />
+    <PackageReference Include="xunit2.ioc.autofac" Version="1.0.4" />
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="Autofac" Version="4.6.2" />
+    <PackageReference Include="NSubstitute" Version="3.1.0" />
+    <PackageReference Include="CommonServiceLocator" Version="2.0.1" />
+    <PackageReference Include="Autofac.Extras.CommonServiceLocator" Version="5.0.0" />
+    <PackageReference Include="AutofacContrib.NSubstitute" Version="4.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Builders\" />
+    <Folder Include="Queries\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\AnimalRescue.Intake\AnimalRescue.Intake.csproj" />
+    <ProjectReference Include="..\..\src\AnimalRescue.Core\AnimalRescue.Core.csproj" />
+    <ProjectReference Include="..\..\src\AnimalRescue.Party\AnimalRescue.Party.csproj" />
+  </ItemGroup>
+</Project>

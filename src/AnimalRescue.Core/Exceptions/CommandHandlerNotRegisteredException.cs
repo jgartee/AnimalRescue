@@ -4,10 +4,10 @@ namespace AnimalRescue.Core.Exceptions
 {
     public class CommandHandlerNotRegisteredException : Exception
     {
-        private const string MESSAGE = "Handler not registered for command, {0}";
+        private const string Msg = "Handler not registered for command, {0}";
 
         public CommandHandlerNotRegisteredException(ICommand command)
-            : base(string.Format(MESSAGE, command.GetType()))
+            : base(string.Format(Msg, command.GetType()))
         {
             Command = command;
         }

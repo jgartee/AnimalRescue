@@ -2,7 +2,7 @@
 
 namespace AnimalRescue.Core
 {
-    public interface IServiceLocator
+    public interface IServiceLocatorx
     {
         object GetInstance(Type type);
     }

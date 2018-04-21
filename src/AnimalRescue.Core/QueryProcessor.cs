@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using AnimalRescue.Core.Exceptions;
 using AnimalRescue.Core.Extensions;
+using CommonServiceLocator;
 
 namespace AnimalRescue.Core
 {

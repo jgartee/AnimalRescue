@@ -81,7 +81,7 @@ The approved developer workflow is as follows:
   * Create a fork of the repo
     * rebase back to the upstream dev branch frequently to avoid painful merge conflicts as much as possible
   * Create a branch on your fork named after the User Story/Task you are working on
-  * Create UAC tests first in SpecFlow
+  * Create UAC tests first (we are trying to stick to XBehave, currently)
   * Implement UI tests in the framework
   * Use TDD in all development
     * Red, green, refactor (don't forget the refactor)
