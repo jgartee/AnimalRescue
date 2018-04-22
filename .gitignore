@@ -31,4 +31,4 @@ src/Web/*.config
 build/
 .vscode/
 .idea/
-
+results/

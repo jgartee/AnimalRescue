@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.nuget/packages/more.xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/more.xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/more.xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_AnimalRescue.-169213843.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="AnimalRescue.sln" t="IncludeFlat" />
+      <e p="CONTRIBUTORS.md" t="Include" />
       <e p="LICENSE.md" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="README.md" t="Include" />
@@ -71,39 +66,7 @@
         </e>
       </e>
       <e p="test" t="Include">
-        <e p="AnimalRescue.Core.Tests" t="IncludeRecursive">
-          <e p="AnimalRescue.Core.Tests.csproj" t="IncludeRecursive" />
-          <e p="bin" t="ExcludeRecursive" />
-          <e p="CommandProcessorUnitTests.cs" t="Include" />
-          <e p="Directory.Build.targets" t="Include" />
-          <e p="Extensions" t="Include">
-            <e p="TypeExtensionsUnitTests.cs" t="Include" />
-          </e>
-          <e p="obj" t="ExcludeRecursive">
-            <e p="Debug" t="Include">
-              <e p="netcoreapp2.0" t="Include">
-                <e p="AnimalRescue.Core.Tests.AssemblyInfo.cs" t="Include" />
-                <e p="AnimalRescue.Core.Tests.Program.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="QueryProcessorUnitTests.cs" t="Include" />
-          <e p="results" t="Include">
-            <e p="AnimalRescue.Core.dll" t="Include" />
-            <e p="AnimalRescue.Core.pdb" t="Include" />
-            <e p="AnimalRescue.Core.Tests.deps.json" t="Include" />
-            <e p="AnimalRescue.Core.Tests.dll" t="Include" />
-            <e p="AnimalRescue.Core.Tests.pdb" t="Include" />
-            <e p="AnimalRescue.Core.Tests.runtimeconfig.dev.json" t="Include" />
-            <e p="AnimalRescue.Core.Tests.runtimeconfig.json" t="Include" />
-            <e p="xunit.runner.reporters.netcoreapp10.dll" t="Include" />
-            <e p="xunit.runner.utility.netcoreapp10.dll" t="Include" />
-            <e p="xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-          </e>
-          <e p="Serialization" t="Include">
-            <e p="IdConverterUnitTests.cs" t="Include" />
-          </e>
-        </e>
+        <e p="AnimalRescue.Core.Tests/AnimalRescue.Core.Tests.csproj" t="IncludeRecursive" />
       </e>
     </e>
   </component>
